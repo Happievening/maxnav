@@ -103,7 +103,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({6:[function(require,module,exports) {
+})({7:[function(require,module,exports) {
 var hashMap = localStorage.getItem("maxnav_storage") === null ? [] : JSON.parse(localStorage.getItem("maxnav_storage"));
 
 var isTouchDevice = "ontouchstart" in document.documentElement;
@@ -222,5 +222,5 @@ $(document).on("keypress", function (e) {
     // console.log(mapCache)
   }
 });
-},{}]},{},[6], null)
+},{}]},{},[7], null)
 //# sourceMappingURL=main.a1cc8e5d.map
