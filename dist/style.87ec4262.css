@@ -12,7 +12,7 @@ img {
 body {
     background-color: #EEE;
     font-family: "inter";
-    overflow: hidden;
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
 }
@@ -155,7 +155,7 @@ li:hover .icon-close-wrapper {
 @media (max-width:500px) {
 
     .site-nav>.nav-form {
-        margin: 60px 30px 20px 30px;
+        margin: 60px 0px 20px 0px;
     }
 
     .searchText {
@@ -214,7 +214,7 @@ li:hover .icon-close-wrapper {
 
     .site-nav .nav-form {
         max-width: 1160px;
-        min-width: 60%;
+        min-width: 1160px;
         margin: 100px 0% 40px 0%;
         justify-content: space-between;
     }
@@ -241,7 +241,7 @@ li:hover .icon-close-wrapper {
 
     .siteList {
         max-width: 1200px;
-        min-width: 60%;
+        min-width: 1200px;
         margin: 50px 0% 20px 0%;
     }
 
