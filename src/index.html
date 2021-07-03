@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
+  <title>maxNav!导航页</title>
+  <style type="text/css">
+    .icon {
+      width: 60px;
+      height: 60px;
+      fill: currentColor;
+      overflow: hidden;
+    }
+
+    .icon-info {
+      width: 16px;
+      height: 16px;
+    }
+
+    .icon-close {
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="xWrapper">
+    <nav class="site-nav">
+      <form class="nav-form" action="https://www.baidu.com/s" method="get" target="_blank">
+        <input data-role='none' type="text" name="wd" class="searchText" />
+        <button type="submit" class="searchButton">搜索</button>
+      </form>
+    </nav>
+    <aside class="guide"></aside>
+    <main class="site-main">
+      <ul class="siteList">
+        <!-- <li class="siteListItem"><a href="//bilibili.com">
+            <div class="site-info">
+              <div class="logo">B</div>
+              <div class="link">bilibili.com</div>
+            </div>
+          </a></li>
+        <li class="siteListItem"><a href="//baidu.com">
+            <div class="site-info">
+              <div class="logo">B</div>
+              <div class="link">baidu.com</div>
+            </div>
+          </a></li> -->
+        <li class="addButton">
+          <div class="site-info">
+            <div class="logo"><svg class="icon">
+                <use xlink:href="#icon-add1"></use>
+              </svg></div>
+            <div class="link">新增站点</div>
+          </div>
+        </li>
+      </ul>
+    </main>
+  </div>
+
+  <script src="//at.alicdn.com/t/font_2643574_fcobjy5h8t.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+  <script src="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
